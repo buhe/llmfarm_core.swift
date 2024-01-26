@@ -5,9 +5,9 @@ name: Swift
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "langchain" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "langchain" ]
 
 jobs:
   build:
